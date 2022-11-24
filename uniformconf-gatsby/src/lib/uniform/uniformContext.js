@@ -11,9 +11,9 @@ export function createUniformContext(serverContext) {
   const context = new Context({
     defaultConsent: true,
     manifest: manifest,
-    transitionStore: new NextCookieTransitionDataStore({
-      serverContext,
-    }),
+    // transitionStore: new NextCookieTransitionDataStore({
+    //   serverContext,
+    // }),
     plugins: plugins,
   })
 

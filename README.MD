@@ -41,3 +41,4 @@ Quick starter to get going with Gatsby and Uniform Canvas (composition managemen
 ## Deploy
 
 With Netlify, simply run `netlify deploy --build --prod` (considering you have the Netlify CLI installed).# uniform-gatsby
+# uniform-gatsby

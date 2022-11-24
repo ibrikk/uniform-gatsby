@@ -3,7 +3,8 @@ import { Composition } from "@uniformdev/canvas-react"
 import React from "react"
 import resolveRenderer from "../lib/uniform/resolveRenderer"
 import { Link } from "gatsby"
-import doEnhance from "../lib/uniform/enhancer"
+import doEnhance from "../lib/enhancer"
+import content from "../content/content.json"
 
 import LayoutCanvas from "../components/LayoutCanvas"
 
@@ -50,7 +51,6 @@ export default function Home({ composition, fields }) {
           </Link>{" "}
           instead.
         </p>
-        <Layout content={content} fields={fields} />;
         <LayoutCanvas composition={composition} fields={fields} />
       </Composition>
     </>

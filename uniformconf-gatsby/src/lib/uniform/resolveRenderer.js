@@ -1,4 +1,5 @@
 import Body from "../../components/Navbar.jsx"
+import React from "react"
 
 function UnknownComponent(component) {
   return <div>[unknown component: {component.type}]</div>

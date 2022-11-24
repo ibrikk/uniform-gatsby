@@ -1,4 +1,5 @@
 import { Slot } from "@uniformdev/canvas-react"
+import React from "react"
 
 import Footer from "./Footer"
 
